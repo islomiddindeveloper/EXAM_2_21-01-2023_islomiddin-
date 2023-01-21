@@ -1,0 +1,23 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 100000000;
+  box-shadow: 22px 30px 95px 1px rgba(86, 86, 86, 0.2);
+}
+@media (max-width: 768px) {
+  .custom-navbar .navbar-collapse {
+    position: absolute;
+    top: 56px;
+    left: 0;
+    right: 0;
+    background-color: black;
+  }
+
+  .custom-navbar .navbar-collapse .nav-link {
+    color: white;
+    text-align: center;
+  }
+  .custom-navbar .navbar-collapse .nav-link.active {
+    color: blue;
+  }
+}

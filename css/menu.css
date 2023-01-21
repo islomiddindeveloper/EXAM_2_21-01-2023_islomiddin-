@@ -1,0 +1,557 @@
+.btn-backtop {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  border: solid 3px black;
+  border-radius: 20px;
+  z-index: 2000000000;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+header {
+  margin-bottom: 120px;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  z-index: 100000000;
+  top: 0;
+  background: #BB2339;
+  box-shadow: 22px 30px 95px 1px rgba(86, 86, 86, 0.2);
+}
+
+@media (max-width: 768px) {
+  .custom-navbar .navbar-collapse {
+    position: absolute;
+    top: 56px;
+    left: 0;
+    right: 0;
+    background-color: black;
+  }
+  .custom-navbar .navbar-collapse .nav-link {
+    color: white;
+    text-align: center;
+  }
+  .custom-navbar .navbar-collapse .nav-link.active {
+    color: blue;
+  }
+}
+.contact {
+  margin-top: 8px;
+  margin-bottom: 57px;
+}
+.contact p {
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 130%;
+  text-align: right;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: #242424;
+}
+
+.a1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: #b0b0b0;
+}
+
+.a2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: #bb2339;
+}
+
+.a1:hover {
+  color: #bb2339;
+}
+
+.menu {
+  margin-top: 70px;
+  margin-bottom: 294px;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: space-between;
+}
+
+.menu_left {
+  width: 428px;
+  height: 844px;
+  -moz-columns: auto;
+       columns: auto;
+  padding: 50px 40px;
+  background: #BB2339;
+  margin-right: 26px;
+  border-radius: 20px;
+}
+.menu_left h3 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 54px;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: #ffffff;
+  margin-bottom: 35px;
+}
+.menu_left .bbb {
+  margin-bottom: 54px;
+  width: 181px;
+  height: 592px;
+}
+.menu_left .btn1 {
+  width: 82px;
+  height: 48px;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 100px;
+}
+.menu_left .btn1 p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.05em;
+  background-color: transparent;
+  text-transform: capitalize;
+  padding-top: 7px;
+}
+.menu_left .btn1:hover {
+  background-color: #bb2339;
+}
+.menu_left .btn1:hover P {
+  color: #fff;
+}
+.menu_left .btn2 {
+  height: 48px;
+  background: #bb2339;
+  border: 1px solid #ffffff;
+  border-radius: 100px;
+  margin: 21px 0;
+}
+.menu_left .btn2 p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.05em;
+  background-color: transparent;
+  text-transform: capitalize;
+  padding: 0 30px;
+  padding-top: 7px;
+  color: #ffffff;
+}
+.menu_left .btn2:hover {
+  background-color: #fff;
+}
+.menu_left .btn2:hover p {
+  color: black;
+}
+.menu_left .btn3 {
+  height: 48px;
+  background: #bb2339;
+  border: 1px solid #ffffff;
+  border-radius: 100px;
+}
+.menu_left .btn3 p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.05em;
+  background-color: transparent;
+  text-transform: capitalize;
+  padding: 0 30px;
+  padding-top: 7px;
+  color: #ffffff;
+}
+.menu_left .btn3:hover {
+  background-color: #fff;
+}
+.menu_left .btn3:hover p {
+  color: black;
+}
+.menu_left .btn4 {
+  height: 48px;
+  background: #bb2339;
+  border: 1px solid #ffffff;
+  border-radius: 100px;
+  margin: 21px 0;
+}
+.menu_left .btn4 p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.05em;
+  background-color: transparent;
+  text-transform: capitalize;
+  padding: 0 30px;
+  padding-top: 7px;
+  color: #ffffff;
+}
+.menu_left .btn4:hover {
+  background-color: #fff;
+}
+.menu_left .btn4:hover p {
+  color: black;
+}
+.menu_left .btn5 {
+  height: 48px;
+  background: #bb2339;
+  border: 1px solid #ffffff;
+  border-radius: 100px;
+}
+.menu_left .btn5 p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.05em;
+  background-color: transparent;
+  text-transform: capitalize;
+  padding: 0 30px;
+  padding-top: 7px;
+  color: #ffffff;
+}
+.menu_left .btn5:hover {
+  background-color: #fff;
+}
+.menu_left .btn5:hover p {
+  color: black;
+}
+.menu_left .btn6 {
+  height: 48px;
+  background: #bb2339;
+  border: 1px solid #ffffff;
+  border-radius: 100px;
+  margin: 21px 0;
+}
+.menu_left .btn6 p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.05em;
+  background-color: transparent;
+  text-transform: capitalize;
+  padding: 0 30px;
+  padding-top: 7px;
+  color: #ffffff;
+}
+.menu_left .btn6:hover {
+  background-color: #fff;
+}
+.menu_left .btn6:hover p {
+  color: black;
+}
+.menu_left .btn7 {
+  height: 48px;
+  background: #bb2339;
+  border: 1px solid #ffffff;
+  border-radius: 100px;
+}
+.menu_left .btn7 p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.05em;
+  background-color: transparent;
+  text-transform: capitalize;
+  padding: 0 30px;
+  padding-top: 7px;
+  color: #ffffff;
+}
+.menu_left .btn7:hover {
+  background-color: #fff;
+}
+.menu_left .btn7:hover p {
+  color: black;
+}
+.menu_left .btn8 {
+  height: 48px;
+  background: #bb2339;
+  border: 1px solid #ffffff;
+  border-radius: 100px;
+  margin: 21px 0;
+}
+.menu_left .btn8 p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.05em;
+  background-color: transparent;
+  text-transform: capitalize;
+  padding: 0 30px;
+  padding-top: 7px;
+  color: #ffffff;
+}
+.menu_left .btn8:hover {
+  background-color: #fff;
+}
+.menu_left .btn8:hover p {
+  color: black;
+}
+.menu_left .btn9 {
+  height: 48px;
+  background: #bb2339;
+  border: 1px solid #ffffff;
+  border-radius: 100px;
+}
+.menu_left .btn9 p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.05em;
+  background-color: transparent;
+  text-transform: capitalize;
+  padding: 0 30px;
+  padding-top: 7px;
+  color: #ffffff;
+}
+.menu_left .btn9:hover {
+  background-color: #fff;
+}
+.menu_left .btn9:hover p {
+  color: black;
+}
+
+.menu_right {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+}
+.menu_right .cards {
+  background: #ffffff;
+  border: 1px solid rgba(36, 36, 36, 0.1);
+  border-radius: 14px;
+  padding: 30px 30px 45px 30px;
+  width: 390px;
+  text-align: center;
+}
+.menu_right .cards img {
+  width: 100%;
+}
+.menu_right .cards p {
+  padding-top: 20px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #242424;
+}
+.menu_right .cards h2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: center;
+  padding-top: 20px;
+  color: #bb2339;
+}
+
+.foter {
+  max-width: 1409px;
+  margin: 0 auto;
+}
+
+.box1 {
+  position: relative;
+  margin-bottom: -209px;
+  z-index: 1100;
+  padding: 64px 0;
+  background: #BB2339;
+  box-shadow: 22px 30px 95px 1px rgba(86, 86, 86, 0.2);
+  border-radius: 20px;
+  text-align: center;
+}
+.box1 strong {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: #ffffff;
+}
+.box1 h2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: #ffffff;
+  padding-top: 25px;
+  padding-bottom: 24px;
+}
+.box1 p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  padding-bottom: 64px;
+}
+
+.input {
+  width: 635px;
+  height: 52px;
+  left: 0px;
+  top: 0px;
+  border: 1px solid rgba(245, 239, 219, 0.5);
+  background-color: transparent;
+  border-radius: 100px;
+  padding-left: 18.94px;
+}
+
+.btn {
+  border: solid 1px white;
+  align-items: center;
+  border-radius: 100px;
+  padding-top: 12px;
+  width: 170px;
+  height: 52px;
+  margin-left: 30px;
+}
+.btn p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+.btn:hover {
+  border: solid 1px white;
+  background-color: #fff;
+}
+.btn:hover p {
+  color: black;
+}
+
+.box2 {
+  width: 100%;
+  background: #BB2339;
+}
+
+.footer {
+  padding-top: 317px;
+  padding-bottom: 41px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-item {
+  list-style: none;
+  text-align: center;
+}
+
+.footer-list {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+.footer-list a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 130%;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: #ffffff;
+}
+
+.list1 {
+  padding-top: 24px;
+  padding-bottom: 10px;
+}
+
+.list2 {
+  padding-top: 32px;
+  padding-bottom: 47px;
+}
+
+@media (max-width: 772px) {
+  .box1 {
+    margin-bottom: -24 0px;
+  }
+  .van {
+    width: 300px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+}
+@media (max-width: 772px) {
+  .input {
+    width: 450px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 455px) {
+  .input {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 995px) {
+  .pages__names {
+    text-align: center;
+  }
+  .menu {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    gap: 30px;
+  }
+  .menu .menu_left {
+    width: 100%;
+  }
+}
+@media (max-width: 650px) {
+  .menu_right {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    gap: 20px;
+  }
+  .menu_right .cards {
+    width: 100%;
+  }
+}
